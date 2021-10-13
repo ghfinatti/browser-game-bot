@@ -1,1 +1,1 @@
-# training_bot_ftteam
+# browser_game_bot

@@ -115,11 +115,3 @@ class ft_account:
             train_below_90(self.training_num)
         if self.above100 == True:
             train_above_100(self.training_num)
-        
-
-finatti = ft_account('ghfinatti3@gmail.com', '********', 400, False, '')
-artur = ft_account('arturm_alves@hotmail.com', '********', 270, True, 'resistencia')
-andre = ft_account('andre.taiss@gmail.com', '********', 300, True, 'ofensiva')
-finatti.open_website(finatti.login, finatti.password, finatti.training_num, finatti.above100, finatti.skill_above100)
-artur.open_website(artur.login, artur.password, artur.training_num, artur.above100, artur.skill_above100)
-andre.open_website(andre.login, andre.password, andre.training_num, andre.above100, andre.skill_above100)
